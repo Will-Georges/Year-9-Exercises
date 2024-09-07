@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .changeMe {
+    font-family: 'Henny Penny', cursive;
+    font-size: 50px;
+    color: black;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-row>div {
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+   
+  .clickToChangeColor {
+    background-color: #2ecc71;
+  }
+  
+  .clickToChangeSize {
+    background-color: #3498db;
+  }
+  

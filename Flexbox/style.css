@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    font-family: arial;
+    font-size: 35px;
+    color: tomato;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:aquamarine;
+    height: 150px;
+    align-self: center;
+  }
+  .text{
+    background-color:darkorange;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    margin: 40px;
+    padding: 15px;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 10px;
+    border: dashed white;
+  }

@@ -1,0 +1,50 @@
+.heading {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+  }
+  .opening-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    height: 300px;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  .play-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid chartreuse;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  .special-play {
+    border: none;
+    background-color: white;
+    width: 0px;
+    height: 0px;
+  }
+  .special-did-you-win{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid chartreuse;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 65px;
+    border-radius: 25px;
+    text-align: center;
+  }

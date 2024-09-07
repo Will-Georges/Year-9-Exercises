@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("basketballs.webp");
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+  }
+  
+  h1 {
+    background: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #3498db;
+    font-size: 2em;
+  }
+  
+  .main {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .col {
+    width: 50%;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .first-team,.second-team {
+    margin: 5px;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .scoreholder1,.scoreholder2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 3em;
+    border-radius: 50%;
+    background: white;
+    color: #e74c3c;
+  
+    width: 20vw;
+    height: 20vw;
+    margin: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .button {
+    margin: 5px;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 110px;
+    width: 25%;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .timer {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: white;
+  }
+  
+  .timer__part {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+  }
+  
+  .timer__btn--start {
+    background: #00b84c;
+  }
+  
+  .timer__btn--stop {
+    background: #ff0256;
+  }

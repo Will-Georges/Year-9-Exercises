@@ -1,0 +1,10 @@
+.button {
+    color: red;
+    background-color: deepskyblue;
+    border: 5px solid black;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .shooting {
+    height: 150px;
+  }

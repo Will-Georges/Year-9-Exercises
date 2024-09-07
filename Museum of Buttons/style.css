@@ -1,0 +1,98 @@
+body {
+    background-color: deepskyblue;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color:navy;
+    font-family: 'Oswald', sans-serif;
+  }
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    color: lightsalmon;
+    font-family: 'Comic Neue', cursive;
+  }
+  .button-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:aquamarine;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+  }
+  .br-1 {
+    border-radius: 15px;
+    color: hotpink;
+  }
+  .br-2 {
+    border-radius: 70%;
+    background-color: black;
+    color: aquamarine;
+  }
+  .br-3 {
+    border-radius: 60px 10px 0px 30px;
+    background-color: red;
+    color: white;
+  }
+  .br-4 {
+    border-radius: 100px 0px 100px 0px;
+    background-color: cornsilk;
+    color: darkmagenta;
+  }
+  .cr-1 {
+    background: linear-gradient(to bottom, hotpink, white 80%);
+  }
+  .cr-2 {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+  }
+  .cr-3 {
+    background: linear-gradient(to left, red, orange, yellow);
+  }
+  .cr-4 {
+    background: linear-gradient(to top, red, pink, blue, orange);
+    color: white;
+  }
+  .hs-1:hover {
+  background-color: black;
+  color: aquamarine;
+  }
+  .hs-1:active {
+    color: white;
+  }
+  .hs-2:hover {
+    background-color: red;
+    color: yellow;
+  }
+  .hs-2:active {
+    background-color: yellow;
+    color: red;
+  }
+  .hs-3:hover {
+    font-size: 25px;
+    background-color: rgb(245, 46, 79);
+    transition: background-color 2s;
+  }
+  .hs-3:active {
+    background-color: aliceblue;
+    color: black;
+  }
+  .hs-4:hover {
+    background-color:blue;
+    color: white;
+    font-size: 10px;
+  }
+  .hs-4:active {
+    background-color: tomato;
+    color: chartreuse;
+  }
